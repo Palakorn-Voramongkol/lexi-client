@@ -1,10 +1,12 @@
-# Lexi2 Client
+# lexi Client
 
-Welcome to **Lexi2 Client**, a robust and scalable React-based application designed to provide a seamless user experience through efficient state management and component communication. Leveraging the mediator pattern, Lexi2 Client ensures modularity, maintainability, and high performance across various functionalities.
+Welcome to **lexi Client**, a robust and scalable React-based application designed to provide a seamless user experience through efficient state management and component communication. Leveraging the mediator pattern, lexi Client ensures modularity, maintainability, and high performance across various functionalities.
+
+![UI Service Architecture](images/ui-service.png)
 
 ## Table of Contents
 
-- [Lexi2 Client](#lexi2-client)
+- [lexi Client](#lexi-client)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Features](#features)
@@ -37,9 +39,9 @@ Welcome to **Lexi2 Client**, a robust and scalable React-based application desig
 
 ## Overview
 
-**Lexi2 Client** serves as the frontend interface for the Lexi2 application suite. It is built with React and utilizes Material-UI and DevExtreme for styling and component design. The application employs a mediator pattern to facilitate efficient communication between components, enhancing scalability and reducing coupling.
+**lexi Client** serves as the frontend interface for the lexi application suite. It is built with React and utilizes Material-UI and DevExtreme for styling and component design. The application employs a mediator pattern to facilitate efficient communication between components, enhancing scalability and reducing coupling.
 
-To provide a comprehensive solution, Lexi2 Client interacts with a backend API server (**Lexi2-Authen**) that handles authentication, role management, permissions, and other essential services. This integration ensures a secure and efficient workflow for managing user data and application states.
+To provide a comprehensive solution, lexi Client interacts with a backend API server (**lexi-Authen**) that handles authentication, role management, permissions, and other essential services. This integration ensures a secure and efficient workflow for managing user data and application states.
 
 ## Features
 
@@ -75,7 +77,7 @@ To provide a comprehensive solution, Lexi2 Client interacts with a backend API s
 
 ## Architecture
 
-Lexi2 Client adopts the **Mediator Pattern** to handle communication between various components, ensuring a loosely coupled architecture. This pattern centralizes event management, allowing components to interact without direct dependencies.
+lexi Client adopts the **Mediator Pattern** to handle communication between various components, ensuring a loosely coupled architecture. This pattern centralizes event management, allowing components to interact without direct dependencies.
 
 ### Key Components
 
@@ -104,7 +106,7 @@ Lexi2 Client adopts the **Mediator Pattern** to handle communication between var
 
 ## Installation
 
-Follow the steps below to set up the **Lexi2 Client** application locally, including both the frontend and backend components.
+Follow the steps below to set up the **lexi Client** application locally, including both the frontend and backend components.
 
 ### Prerequisites
 
@@ -119,8 +121,8 @@ Follow the steps below to set up the **Lexi2 Client** application locally, inclu
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/lexi2-client.git
-   cd lexi2-client
+   git clone https://github.com/your-username/lexi-client.git
+   cd lexi-client
    ```
 
 2. **Install Dependencies**
@@ -155,7 +157,7 @@ Follow the steps below to set up the **Lexi2 Client** application locally, inclu
 
 ### Backend Setup
 
-The backend API server (**Lexi2-Authen**) handles authentication, role management, permissions, and other essential services. Follow the steps below to set up and run the backend server.
+The backend API server (**lexi-Authen**) handles authentication, role management, permissions, and other essential services. Follow the steps below to set up and run the backend server.
 
 #### Setting Up SSH for GitHub
 
@@ -437,7 +439,7 @@ Once the application is up and running, you can navigate through various section
 
 ## Contributing
 
-We welcome contributions to enhance the Lexi2 Client! Please follow the guidelines below:
+We welcome contributions to enhance the lexi Client! Please follow the guidelines below:
 
 1. **Fork the Repository**
 
