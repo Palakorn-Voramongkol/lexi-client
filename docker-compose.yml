@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+
+#  lexi-authen-api:
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    ports:
+#      - "5000:5000"
+#      - "5001:5001"
+#    environment:
+#      - ASPNETCORE_ENVIRONMENT=Production
+#      - ASPNETCORE_URLS=http://+:5000;https://+:5001
+#    volumes:
+#      - .:/app
+#    depends_on:
+#      - db
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "YourNewStrong!Password"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+
+
+volumes:
+  sqlserver-data:
