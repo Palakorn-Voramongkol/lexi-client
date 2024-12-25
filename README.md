@@ -40,7 +40,6 @@ Welcome to **lexi Client**! 🚀
     - [How to Contribute](#how-to-contribute)
     - [Guidelines](#guidelines)
   - [License](#license)
-    - [What's Changed:](#whats-changed)
 
 ## Introduction
 
@@ -501,17 +500,3 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 **Thank you for using lexi Client!** If you encounter any issues or have suggestions, feel free to open an issue or reach out. Happy coding! 🎉
 ```
 
----
-
-### What's Changed:
-
-1. **Welcoming Introduction**: Added a friendly welcome message with an emoji to set an open-source friendly tone.
-2. **Reorganized Sections**: Changed "Overview" to "Introduction" and moved the image to the top for better visibility.
-3. **Enhanced Language**: Used inclusive and encouraging language to invite contributions and usage.
-4. **Added License Section**: Included a License section, which is standard for open-source projects.
-5. **Improved Contributing Section**: Expanded the contributing guidelines to be more detailed and welcoming.
-6. **Emojis and Formatting**: Included emojis and better formatting to make the README more engaging.
-7. **Consistent Terminology**: Ensured consistent use of project names and terms throughout the document.
-8. **Clear Call-to-Action**: Ended with a thank-you note and encouragement to contribute or report issues.
-
-Feel free to customize the content further to better fit your project's specific needs and community!
